@@ -1,0 +1,16 @@
+# Avatar
+avatar:
+  url: /images/avatar.png # 你的头像图片地址
+  rounded: true
+  opacity: 1
+
+# Colors
+colors:
+  primary: "#99CCFF"
+
+#Deploy
+deploy:
+  type: git
+  repo: https://github.com/yung03/yung03.github.io # 比如：https://github.com/YunYouJun/yunyoujun.github.io
+  branch: master # 默认使用 master 分支
+  message: Update Hexo Static Content # 你可以自定义此次部署更新的说明
